@@ -14,7 +14,7 @@ const PORT = process.env.PORT || 8000
 // Middleware
 app.use(helmet())
 app.use(cors())
-app.use(morgan('combined'))a.
+app.use(morgan('combined'))
 app.use(express.json())
 app.use(express.urlencoded({ extended: true }))
 
